@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brew & Beans - Coffee Shop</title>
+  <meta name="description" content="Brew & Beans, your neighborhood coffee shop serving single-origin brews, pastries, and cozy vibes.">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen font-sans bg-white text-gray-900">
+  <!-- Navigation -->
+  <header class="bg-white/90 backdrop-blur-md fixed w-full z-50">
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a href="index.html" class="text-2xl font-bold font-[Montserrat] text-gray-800">Brew & Beans</a>
+      <div class="hidden md:flex space-x-6 text-gray-700 font-semibold">
+        <a href="index.html" class="hover:text-yellow-500">Home</a>
+        <a href="menu.html" class="hover:text-yellow-500">Menu</a>
+        <a href="about.html" class="hover:text-yellow-500">Our Story</a>
+        <a href="contact.html" class="hover:text-yellow-500">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="min-h-screen bg-center bg-cover" style="background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1400&q=60');">
+    <div class="absolute inset-0 bg-black/60"></div>
+    <div class="relative z-10 flex items-center justify-center min-h-screen px-4">
+      <div class="text-center text-white max-w-3xl" style="font-family: 'Open Sans', sans-serif;">
+        <h1 class="text-4xl md:text-5xl font-[Montserrat] font-bold mb-4">Brew & Beans</h1>
+        <p class="text-lg md:text-xl text-gray-100 mb-6">Sourcing single-origin beans, roasting with heart, and serving cozy moments daily.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="menu.html" class="bg-yellow-400 text-black px-6 py-3 rounded-full font-semibold hover:bg-yellow-300 transition-all">View Menu</a>
+          <a href="contact.html" class="border-2 border-white text-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-black transition-all">Visit Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlights -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <article class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition-all">
+        <h3 class="font-[Montserrat] text-xl mb-2">Small-Batch Roasts</h3>
+        <p class="text-sm">Daily roasted coffees with rotating single-origin selections.</p>
+      </article>
+      <article class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition-all">
+        <h3 class="font-[Montserrat] text-xl mb-2">Artisan Pastries</h3>
+        <p class="text-sm">Pair your latte with croissants, muffins, and seasonal treats.</p>
+      </article>
+      <article class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition-all">
+        <h3 class="font-[Montserrat] text-xl mb-2">Cozy Vibe</h3>
+        <p class="text-sm">Electric outlets, fast Wi-Fi, and warm lighting for working or relaxing.</p>
+      </article>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-sm grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div>
+        <strong class="font-[Montserrat]">Brew & Beans</strong>
+        <p class="text-gray-300 mt-2">Fresh coffee, friendly faces, cozy moments.</p>
+      </div>
+      <div>
+        <p>Mon-Sun: 7:00 AM – 7:00 PM</p>
+        <p class="text-gray-300">123 Coffee Lane, City Center</p>
+      </div>
+      <div>
+        <p>Follow us</p>
+        <div class="flex space-x-4 mt-2 text-yellow-400">
+          <a href="#" aria-label="Facebook">F</a>
+          <a href="#" aria-label="Instagram">I</a>
+          <a href="#" aria-label="Twitter">T</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
