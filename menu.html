@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu - Brew & Beans</title>
+  <meta name="description" content="Menu of Brew & Beans featuring coffees, pastries, and seasonal blends.">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-white text-gray-900">
+  <header class="bg-white/90 fixed w-full z-50">
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a href="index.html" class="text-2xl font-bold font-[Montserrat] text-gray-800">Brew & Beans</a>
+      <div class="hidden md:flex space-x-6 text-gray-700 font-semibold">
+        <a href="index.html" class="hover:text-yellow-500">Home</a>
+        <a href="menu.html" class="hover:text-yellow-500">Menu</a>
+        <a href="about.html" class="hover:text-yellow-500">Our Story</a>
+        <a href="contact.html" class="hover:text-yellow-500">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="min-h-screen bg-center bg-cover" style="background-image: url('https://images.unsplash.com/photo-1526312426976-593c5a6efea1?auto=format&fit=crop&w=1400&q=60');">
+    <div class="absolute inset-0 bg-black/60"></div>
+    <div class="relative z-10 flex items-center justify-center min-h-screen px-4">
+      <div class="text-center text-white" style="font-family: 'Open Sans', sans-serif;">
+        <h1 class="text-4xl md:text-5xl font-[Montserrat] font-bold mb-4">Menu</h1>
+        <p class="text-lg md:text-xl">Explore our coffee lineup and tasty pastries crafted fresh daily.</p>
+      </div>
+    </div>
+  </section>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+    <!-- Coffee items -->
+    <article class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition-all">
+      <h3 class="font-[Montserrat] text-xl mb-2">Espresso</h3>
+      <p class="text-sm text-gray-700">Rich, full-bodied shot with a crema finish.</p>
+      <p class="mt-2 font-semibold">$3.00</p>
+    </article>
+    <article class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition-all">
+      <h3 class="font-[Montserrat] text-xl mb-2">Latte</h3>
+      <p class="text-sm text-gray-700">Silky milk with a smooth espresso base.</p>
+      <p class="mt-2 font-semibold">$4.50</p>
+    </article>
+    <article class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition-all">
+      <h3 class="font-[Montserrat] text-xl mb-2">Cappuccino</h3>
+      <p class="text-sm text-gray-700">Classic balance of espresso, steamed milk, and foam.</p>
+      <p class="mt-2 font-semibold">$4.25</p>
+    </article>
+    <article class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition-all">
+      <h3 class="font-[Montserrat] text-xl mb-2">Seasonal Brew</h3>
+      <p class="text-sm text-gray-700">Rotating seasonal blend to spark curiosity.</p>
+      <p class="mt-2 font-semibold">$4.75</p>
+    </article>
+    <article class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition-all">
+      <h3 class="font-[Montserrat] text-xl mb-2">_pastry_: Almond Croissant</h3>
+      <p class="text-sm text-gray-700">Flaky layers with almond paste and vanilla.</p>
+      <p class="mt-2 font-semibold">$3.50</p>
+    </article>
+    <article class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition-all">
+      <h3 class="font-[Montserrat] text-xl mb-2">Blueberry Muffin</h3>
+      <p class="text-sm text-gray-700">Burst of blueberries with a tender crumb.</p>
+      <p class="mt-2 font-semibold">$3.75</p>
+    </article>
+  </main>
+
+  <footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-sm grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div>
+        <strong class="font-[Montserrat]">Brew & Beans</strong>
+        <p class="text-gray-300 mt-2">Quality coffee, crafted with care.</p>
+      </div>
+      <div>
+        <p>Hours: Mon-Sun 7:00 AM – 7:00 PM</p>
+        <p class="text-gray-300">123 Coffee Lane, City Center</p>
+      </div>
+      <div>
+        <p>Contact</p>
+        <p class="text-gray-300">hello@brewbeans.local</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
